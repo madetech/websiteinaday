@@ -1,1 +1,37 @@
-Hello World
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Websiteinaday</title>
+  <%= render 'shared/header_includes' %>
+</head>
+<body>
+  <div class="hero-container">
+    <div class="hero-image"></div>
+    <div class="hero-title">
+      <h1>Hi, I'm <%= @my_name %>!</h1>
+    </div>
+  </div>
+
+  <div class="content-container">
+    <h2>Some stuff about me</h2>
+    <ul class="stuff-items">
+      <li>
+        <img src="assets/icons/archery11.svg" />
+        <p>I enjoy archery.</p>
+      </li>
+      <li><img src="assets/icons/archery11.svg" />
+        <p>I enjoy archery.</p>
+      </li>
+      <li><img src="assets/icons/archery11.svg" />
+        <p>I enjoy archery.</p>
+      </li>
+    </ul>
+    <div class="clearfix"></div>
+  </div>
+
+  <div class="content-container">
+    <h2>Here's what people are saying about me</h2>
+
+  </div>
+</body>
+</html>
