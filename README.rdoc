@@ -1,0 +1,8 @@
+Base application for Website in a Day.
+
+How to use
+----------
+
+* Fork repository for each student, using `websiteinaday-001` format
+* Ensure the new repository has the `Made Team` group added as a collaborator
+* Check out the forked repo on to the student machine
