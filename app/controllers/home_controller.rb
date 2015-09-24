@@ -1,5 +1,5 @@
 class HomeController < ApplicationController
   def index
-    @comments = Comment.all
+    render layout: false
   end
 end
