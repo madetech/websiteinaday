@@ -3,6 +3,8 @@ Base application for Website in a Day.
 How to use
 ----------
 
-* Fork repository for each student, using `websiteinaday-001` format
-* Ensure the new repository has the `Made Team` group added as a collaborator
-* Check out the forked repo on to the student machine
+1. Clone the repository for each student
+2. Run `git remote remove origin` to ensure we don't accidentally commit back up to master
+3. Run `heroku login` to login to Heroku
+4. Run `heroku create` to create a new Heroku application
+5. Run `git push heroku` to push the application to Heroku
